@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    
+  }
+  
+  .input-container {
+    margin-right: 20px;
+  }
+  
+  .prompt {
+    margin-top: 20px;
+        display: flex;
+    justify-content: center;
+  }
+  div#response {
+    display: flex;
+    justify-content: center;
+    /* max-width: 50px; */
+}
+  
+  /* Button color */
+  button {
+    background-color: #1f56c3;
+    color: white;
+  }
+  
+  /* Increase font size of h2 */
+  h2 {
+    font-size: 24px;
+  }
+  textarea{
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    width: 200%;
+    height: 200px;
+  }
+  
+  button{
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #1f56c3;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    border-radius: 25px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 20px;
+  }
+  input[type="file"],
+textarea,
+input[type="text"],
+#response,
+#summary{
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+}
+
+  /* Add any additional styling as needed */
+  /* .output{
+    display: flex;
+    justify-content: center;
+  } */.input-container {
+    display: flex;
+    flex-direction: column;
+}
+#loader {
+  display: none;
+}
+
+.response{
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.summarize {
+  display: flex;
+  flex-direction: column;
+}
+.summarizeButton:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  
+}
+@media screen and (max-width: 768px) {
+  textarea{
+    width: 80%;
+  }
+}

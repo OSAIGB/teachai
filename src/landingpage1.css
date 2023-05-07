@@ -1,0 +1,294 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  nav {
+    /* Navbar styling here */
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-try {
+    background-color: #1f56c3;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    animation: zoom 2s infinite;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .features div {
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    width: 100%;
+    
+  }
+  
+  .card img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .card h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      /* align-items: center; */
+    }
+    .logo{
+      padding-left: 0;
+    }
+    textarea{
+      width: 80%;
+    }
+  }
+  .text-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .animated-text {
+    position: relative;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 20px;
+    white-space: nowrap;
+    color: #333;
+    animation: text-reveal 3s ease;
+  }
+  
+  @keyframes text-reveal {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    position: relative;
+    margin-top: 60px;
+  }
+      
+  
+  header img{
+    width: 500px;
+  }
+.header-left h1{
+  font-size: 70px;
+}
+/* .study{
+  text-align: left;
+} */
+.hardcopy {
+  background-color: #1f56c3;
+  color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 0.25em;
+
+}
+.header-left button{
+  position: relative;
+  bottom: 0;
+}
+.card .title {
+  background-color: #1f56c3;
+  color: white;
+}
+.card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card ul li::before {
+  content: "\2713";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 1.2em;
+  color: black;
+}
+
+.card ul li {
+  margin-bottom: 0.5em;
+  font-size: 25px;
+  max-width: 70%;
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 28px;
+    margin-right: 16px;
+  }
+.card-container{
+  flex-direction: column;
+  width: 90%;
+}
+.container{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.output{
+  width: 90%;
+}
+textarea{
+  width: 90%;
+}
+.fontawesome2{
+flex-direction: column;
+display: flex;
+}
+}
+
+/* Styles for screens larger than 1024px (desktops) */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .checkmark::before {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  .WebApp{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  textarea{
+    width: 80%;
+  }
+  .fontawesome2{
+    flex-direction: column;
+  }
+  .header-left h1 {
+    font-size: 50px;
+    margin: 1px;
+}
+p{
+  font-size: 17px;
+}
+.card-container{
+  width: 80%;
+}
+header img{
+ width: 250px;
+}
+}
