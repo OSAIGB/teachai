@@ -107,7 +107,6 @@ function WebApp() {
       console.error(error);
     }
   }    
-  
 
 console.log(openaiRef)
   
