@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/teachai/static/css/main.7ad1e42b.css",
-    "main.js": "/teachai/static/js/main.a682831a.js",
+    "main.js": "/teachai/static/js/main.b04d2195.js",
     "static/js/787.fb71b0fd.chunk.js": "/teachai/static/js/787.fb71b0fd.chunk.js",
     "index.html": "/teachai/index.html",
     "main.7ad1e42b.css.map": "/teachai/static/css/main.7ad1e42b.css.map",
-    "main.a682831a.js.map": "/teachai/static/js/main.a682831a.js.map",
+    "main.b04d2195.js.map": "/teachai/static/js/main.b04d2195.js.map",
     "787.fb71b0fd.chunk.js.map": "/teachai/static/js/787.fb71b0fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ad1e42b.css",
-    "static/js/main.a682831a.js"
+    "static/js/main.b04d2195.js"
   ]
 }
